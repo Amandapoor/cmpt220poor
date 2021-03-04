@@ -9,6 +9,7 @@ public class Problem3 {
 
     public static void main(String[] args) {
 
+        //displays the pattern for 100
         System.out.println(" *  *****  *****");
         System.out.println(" *  *   *  *   *");
         System.out.println(" *  *   *  *   *");
