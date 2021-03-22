@@ -35,6 +35,7 @@ public class hw03Problem4 {
         int correct = number1 - number2;
 
         //returns message if user is right or wrong
+        // JA: You were supposed to print different messages randomly
         if (number1-number2 == answer){
             System.out.println("Correct!");
         }

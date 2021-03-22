@@ -13,11 +13,11 @@ public class hw03Problem1 {
     public static void main(String[] args) {
     
         // scanner input command allowing for user input    
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); 
 
         // user prompted to enter numerator
         System.out.print("Enter a numerator: ");
-        int num = input.nextInt(); 
+        int num = input.nextInt(); // JA: Compilation error
 
         // user prompted to enter denominator
         System.out.print("Enter a denominator: ");
