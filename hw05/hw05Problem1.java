@@ -4,7 +4,7 @@
 
 
 // I will Write a test program that prompts the user to 
-//enter a decimal integer value and displays the corre- sponding binary value.
+//enter a decimal integer value and displays the corresponding binary value.
 
 
 import java.util.Scanner;
