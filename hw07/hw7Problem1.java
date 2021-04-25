@@ -40,6 +40,7 @@ public class hw7Problem1 {
           
     } 
 
+    // JA: This is supposed to return a Point object
     static void getIntersectingPoint(Point p1, Point p2, Point p3, Point p4) { 
         //Line AB represented as ax + by = c 
             double a1 = p2.getY() - p1.getY(); 

@@ -35,6 +35,7 @@ public class hw7Problem2 {
           
     } 
 
+    // JA: This is supposed to return a Point object
     static void getCenterPoint(Point p1, Point p2, Point p3) { 
 
             //formula for center points x and y 

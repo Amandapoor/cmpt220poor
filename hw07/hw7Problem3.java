@@ -34,6 +34,8 @@ public class hw7Problem3 {
             getTriangleArea(p1, p2, p3); 
           
     } 
+
+    // JA: This is supposed to return a double
     static void getTriangleArea(Point p1, Point p2, Point p3) { 
 
         //formula for center points x and y 
