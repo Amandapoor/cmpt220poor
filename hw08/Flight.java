@@ -3,18 +3,18 @@
 //Software Development 1
 
 //defines the Flight class used in Problem3
-import java.util.GregorianCalender;
+import java.util.GregorianCalendar;
 
 
 public class Flight {
     //declares flightNo, departureTime, arrivalTime
     private String flightNo;
-    private GregorianCalender departureTime;
-    private GregorianCalender arrivalTime;
+    private GregorianCalendar arrivalTime;
+    private GregorianCalendar departureTime;
 
 
     //Flight consturctor
-    public Flight (String flightNo, GregorianCalender departureTime, GregorianCalender arrivalTime){
+    public Flight (String flightNo, GregorianCalendar departureTime, GregorianCalendar arrivalTime){
         this.flightNo=flightNo;
         this.departureTime=departureTime;
         this.arrivalTime=arrivalTime;
@@ -25,20 +25,20 @@ public class Flight {
         return flightNo;
     }
     //getter for departureTime
-    public GregorianCalender getDepartureTime(){
+    public GregorianCalendar getDepartureTime(){
         return departureTime;
     }
     //getter for arrivalTime
-    public GregorianCalender getArrivalTime(){
+    public GregorianCalendar getArrivalTime(){
         return arrivalTime;
     }
     //setter for departureTime
-    public void setDepartureTime(GregorianCalender departureTime){
+    public void setDepartureTime(GregorianCalendar departureTime){
         this.departureTime=departureTime;
     }
 
     //setter for arrivalTime
-    public void setArrivalTime(GregorianCalender arrivalTime){
+    public void setArrivalTime(GregorianCalendar arrivalTime){
         this.arrivalTime = arrivalTime;
     }
 

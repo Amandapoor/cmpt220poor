@@ -6,7 +6,7 @@
 //flight departure and arrival times
 
 import java.util.ArrayList;
-import java.util.GregorianCalender;
+import java.util.GregorianCalendar;
 
 
 public class hw8Problem3 {
