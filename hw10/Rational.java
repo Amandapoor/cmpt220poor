@@ -2,8 +2,7 @@
 //Prof. Arias
 //Software Development 1
 
-//Write a test program that prompts the user to enter a 
-//binary number as a string and displays its decimal equivalent
+//rational class used for hw10Problem3
 
 
 public class Rational extends Number implements Comparable<Rational> {
