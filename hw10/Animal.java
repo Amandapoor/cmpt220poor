@@ -1,3 +1,8 @@
+//Amanda Poor
+//Prof. Arias
+//Software Development 1
+
+//animal class used in hw10Problem2
 
 //class Animal which implements Comparable and Cloneable
 abstract class Animal implements Comparable<Animal>, Cloneable{
