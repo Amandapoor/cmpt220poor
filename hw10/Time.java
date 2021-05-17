@@ -7,7 +7,7 @@
 
 import java.util.Calendar;
 
-public class Time implements Cloneable, Comparable {
+public class Time implements Cloneable, Comparable<Time> {
 
    private long t;
 
@@ -24,15 +24,15 @@ public class Time implements Cloneable, Comparable {
    }
 
    public int getHour() {
-       return (int) (t / 3600);
+       return (int) (t / 3600) % 24;
    }
 
    public int getMinute() {
-       return (int) (t - (getHour() * 3600)) / 60;
+       return (int) ((t - (getHour() * 3600)) / 60) % 60;
    }
 
    public int getSecond() {
-       return (int) t - (getHour() * 3600) - (getMinute() * 60);
+       return (int) t % 60);
    }
   
    public long getSeconds(){
@@ -45,7 +45,7 @@ public class Time implements Cloneable, Comparable {
    }
 
    @Override
-   public int compareTo(Object arg0) {
+   public int compareTo(Time arg0) {
        return (int) (t - ((Time)arg0).t);
    }
   
